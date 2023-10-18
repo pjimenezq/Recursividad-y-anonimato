@@ -60,7 +60,7 @@ if __name__=="__main__":
 ```
 **Segunda función**
 
-Reto 6, punto 3, función para calcular la cantidad de carne de aves en kilos (si se tienen N gallinas, M gallos y K pollitos cada uno pesando 6 kilos, 7 kilos y 1 kilo respectivamente. )
+Reto 6, punto 3, función para calcular la cantidad de carne de aves en kilos (si se tienen N gallinas, M gallos y K pollitos cada uno pesando 6 kilos, 7 kilos y 1 kilo respectivamente )
 
 **Sin lambdas**
 ```
@@ -97,6 +97,7 @@ if __name__=="__main__":
 **Tercera función**
 
 Reto 6, punto 4, función para calcular las vueltas de una compra
+
 **Sin lambdas**
 ```
 #Declarando constantes
