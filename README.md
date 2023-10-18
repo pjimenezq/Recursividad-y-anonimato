@@ -300,6 +300,8 @@ if __name__=="__main__":#Función principal
 
 Escriba una función recursiva para calcular la operación de la potencia.
 
+El código desarrollado hace que la base de la potencia se multiplique por si misma b veces.
+
 ```
 def potenciaRecursivo(a:int,b:int)-> int:
 
