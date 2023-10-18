@@ -296,3 +296,39 @@ if __name__=="__main__":#Función principal
     print("La raíz cúbica del menor número es: "+ str(raizCubicaMenorNumero(81,125,27,100,3500,1000000,99))) #En este caso se imprime el resultado de la raíz cúbica del menor número de la cantidad de números que uno desee, demostrando la funcionalidad de *args
 
 ```
+## Punto tres
+
+Escriba una función recursiva para calcular la operación de la potencia.
+
+```
+def potenciaRecursivo(a:int,b:int)-> int:
+
+  # Caso base 
+  if b == 1: 
+    return a
+  else:
+    # Condicion de la funcion recursiva
+    return a*potenciaRecursivo(a,b-1)#Se le resta una unidad a b
+
+if __name__ == "__main__":#Función principal
+  base= int(input("Ingrese la base de la potencia: "))
+  exponente=int(input("Ingrese el exponente de la potencia: "))
+  resultadoPotencia = potenciaRecursivo(base,exponente)
+  print("El resultado de la operación de la potencia de  " + str(base) + " elevado a la " + str(exponente)+ " es " +str(resultadoPotencia))
+```
+## Punto cuatro 
+
+Contar el tiempo y realizar pruebas para calcular fibonacci con iteración o con recursión. Determinar desde que número de la serie la diferencia de tiempo se vuelve significativa.
+
+## Punto cinco
+
+Crear cuenta en stackoverflow y adjuntar imagen en el repo
+
+![image](https://github.com/pjimenezq/Recursividad-y-anonimato/assets/141860508/847438bd-f218-483b-868a-9dcabc89430a)
+
+
+## Punto seis
+
+Ir a Linkedin y crear perfil
+
+Enlace: https://www.linkedin.com/in/paula-jim%C3%A9nez-qui%C3%B1ones-0211a8297/
