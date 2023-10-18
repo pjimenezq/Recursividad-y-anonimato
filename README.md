@@ -148,6 +148,7 @@ if __name__=="__main__":
 ```
 ## Punto dos
 De los retos anteriores selecione 3 funciones y escribalas con argumentos no definidos (*args).
+
 **Primera función**
 
 Reto 6, punto 7, función para calcular el promedio de 5 números reales
