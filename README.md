@@ -323,6 +323,65 @@ if __name__ == "__main__":#Función principal
 
 Contar el tiempo y realizar pruebas para calcular fibonacci con iteración o con recursión. Determinar desde que número de la serie la diferencia de tiempo se vuelve significativa.
 
+Para este punto, usé el siguiente código para contar el tiempo del cálculo fibonacci con iteración.
+
+**Código**
+```
+import time
+
+start_time = time.time()
+def fibo(n : int )-> int:
+  i : int = 1
+  # caso base
+  n1 : int = 0
+  n2 : int = 1
+  while(i <= n):
+    # Condicion
+    sumFibo = n1 + n2
+    print(sumFibo)
+    # Actualizacion
+    n1 = n2
+    n2 = sumFibo
+    i += 1
+  return sumFibo
+
+if __name__ == "__main__":
+  num:int=1000 #Aquí se ingresa el número de la serie
+  serieFibo = fibo(num)
+  print("La serie de Fibonacci hasta " + str(num) + " es " + str(serieFibo))
+end_time = time.time()
+
+timer = end_time - start_time
+print(timer)
+```
+
+Los tiempos contados por el código se muestran en la siguiente tabla.
+
+|Número de la serie  |Tiempo                    |
+|--------------------|--------------------------|
+|        1000        |0.2902693748474121        |
+|        2000        |0.3676605224609375        |
+|        3000        |1.6018900871276855        |
+|        4000        |1.546492338180542         |
+|        5000        |3.059396743774414         |
+|        6000        |4.684164524078369         |
+|        7000        |5.575907945632935         |
+|        8000        |7.171355247497559         |
+|        9000        |9.458942413330078         |
+|       10000        |10.314197301864624        |
+|       11000        |14.17271113395691         |
+|       12000        |16.59892725944519         |
+|       13000        |18.71178102493286         |
+|       14000        |23.04418659210205         |
+|       15000        |24.4043128490448          |
+|       16000        |31.247854471206665        |
+|       17000        |32.70549821853638         |
+|       18000        |39.343037843704224        |
+|       19000        |42.399460554122925        |
+|       20000        |44.02464413642883         |
+
+Al analizar la información de esta tabla, se puede concluir que la mayor diferencia de tiempo está en el intervalo entre el número 15000 y el número 16000 de la serie.
+
 ## Punto cinco
 
 Crear cuenta en stackoverflow y adjuntar imagen en el repo
